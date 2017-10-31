@@ -3,9 +3,10 @@ A jQuery plugin to show feedback messages (error, warning, info) with transparen
 
 ## usage:
 
-**.createContainer(*id*, *fadeoutDelay*)**  
-*id* string, default "messageflow_container0"  
-*fadeoutDelay* int, default 10000 (=10 seconds)  
+**.createContainer(*id*, *watchDuration*, *fadeoutDuration*)**  
+*id* string, default "messageflow_container0"
+*watchDuration* int, default 5000 (ie 5 seconds)  
+*fadeoutDuration* int, default 5000  
 Creates a new container, by default bottom right (can be edited in jquery.messageflow.css)
 
 **.MessageFlow(*type*, *text*, *\*msg_id*)**  
