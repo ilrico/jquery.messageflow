@@ -1,5 +1,5 @@
 div#messageflow_container0 {
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     left: 15px;
 }
@@ -11,7 +11,7 @@ div.messageflow_msg {
 }
 
 div.messageflow_msg_error {
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: rgba(255, 100, 100, 1);
     color: rgb(120, 0, 0);
 }
 
@@ -21,11 +21,11 @@ div.messageflow_msg_warning {
 }
 
 div.messageflow_msg_success {
-    background-color: rgba(0, 255, 0, 0.3);
+    background-color: rgba(100, 255, 100, 1);
     color: rgb(0, 120, 0);
 }
 
 div.messageflow_msg_info {
-    background-color: rgba(0, 0, 255, 0.3);
+    background-color: rgba(100, 100, 255, 1);
     color: rgb(0, 0, 120);
 }
